@@ -17,7 +17,8 @@ bot = commands.Bot(command_prefix=".", intents=intents)
 # Load all cogs (modules).
 initial_extensions = [
     "cogs.utils",
-    "cogs.announcement"
+    "cogs.announcement",
+    "cogs.flight"
 ]
 
 @bot.event
